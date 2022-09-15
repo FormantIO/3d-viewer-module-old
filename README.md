@@ -6,4 +6,4 @@ http://localhost:5173/?module={module}&debug={debug}&device_id={device_id}
 
 For production:
 
-https://formantio.github.io/3d-viewer-module/dist/index.html
+https://formantio.github.io/3d-viewer-module/dist/index.html?module={module}&debug={debug}&device_id={device_id}
