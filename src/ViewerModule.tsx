@@ -10,7 +10,28 @@ const universeData = new TelemetryUniverseData();
 const urlParams = new URLSearchParams(window.location.search);
 const deviceId = definedAndNotNull(urlParams.get("device_id"));
 
-let scene = new SceneBuilder(deviceId).addGround().build();
+let scene = new SceneBuilder(deviceId)
+  .addLayer({
+    id: "layer1",
+    type: "device_visual_tf",
+    name: "TF",
+    children: [],
+    data: [],
+    dataSources: [
+      {
+        id: "fasd",
+        sourceType: "telemetry",
+        streamName: "tf",
+        streamType: "transform tree",
+      },
+    ],
+    visible: true,
+    editing: false,
+    fieldValues: {},
+    position: { type: "manual", x: 0, y: 0, z: 0 },
+  })
+  .addGround()
+  .build();
 
 function ViewerModule() {
   useEffect(() => {
@@ -25,7 +46,6 @@ function ViewerModule() {
         initialSceneGraph={scene}
         universeData={universeData}
         mode="view"
-        vr
       />
     </div>
   );

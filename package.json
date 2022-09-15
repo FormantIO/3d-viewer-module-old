@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@formant/data-sdk": "^0.0.98",
-    "@formant/universe": "^0.0.233",
+    "@formant/universe": "0.0.236",
     "@formant/universe-connector": "^0.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

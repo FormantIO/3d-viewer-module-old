@@ -456,10 +456,10 @@
   resolved "https://registry.yarnpkg.com/@formant/universe-core/-/universe-core-0.0.9.tgz#b884a3a8fd04336ccb194de8bb76b611422ee423"
   integrity sha512-zgALcyIowKUdz/+qY46l+ZT+7FysxIRcqt5WcaTuBCuqj7l7hI6eTQbDKoQbjYwrdKIQSqxf1PWNeZUPFW/JEQ==
 
-"@formant/universe@^0.0.233":
-  version "0.0.233"
-  resolved "https://registry.yarnpkg.com/@formant/universe/-/universe-0.0.233.tgz#11c49e628fe77dbe49d02b7804a7b22c946f1113"
-  integrity sha512-qGR8iQN57xK/JNEd16zRgMBtTiA67PTLJliYgE9d/8rLir0CrQR2siJUGkZSSvHyJAUpcmNcaXRKFBBhJ6K3ag==
+"@formant/universe@0.0.236":
+  version "0.0.236"
+  resolved "https://registry.yarnpkg.com/@formant/universe/-/universe-0.0.236.tgz#6edbed01f6f5c932375c9e60cf896e2a7b3da005"
+  integrity sha512-nyKUAQPHZDFfEDaYYSwyd6yOELq6zWu0l+3lMGzrshDU3phuxKBQ+sj5Y2/+gMEfgulXgIVPgK+Qga69KdtHNg==
   dependencies:
     "@formant/ui-sdk" "0.0.26"
     "@formant/universe-core" "^0.0.9"
