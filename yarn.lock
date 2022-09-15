@@ -437,10 +437,10 @@
     sass "^1.51.0"
     styled-components "^5.3.5"
 
-"@formant/universe-connector@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@formant/universe-connector/-/universe-connector-0.0.4.tgz#3400e7fe0ed55997a42b338f3f5d8717c5059390"
-  integrity sha512-L2S9Ch2AZeNZT55rykAMH9M55xpbTxbGmUudgMDmF2SYiQaDdtWyLNZBZP1aK4foNytD3DfMetBivmXRxHSJ5Q==
+"@formant/universe-connector@0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@formant/universe-connector/-/universe-connector-0.0.5.tgz#eeafb80c7aed0d37bb391cc08c2e5cb5803e7744"
+  integrity sha512-Yfck0TxDOtl/YmZfQcFwQ436p5drK/DnVyL62k85hbOFwmwng2zMkjt9gekQInoMN4Kp/0H1gNk++zpFkxGoAg==
   dependencies:
     "@formant/data-sdk" "^0.0.97"
     "@formant/realtime-sdk" "^0.0.15"
@@ -456,10 +456,10 @@
   resolved "https://registry.yarnpkg.com/@formant/universe-core/-/universe-core-0.0.9.tgz#b884a3a8fd04336ccb194de8bb76b611422ee423"
   integrity sha512-zgALcyIowKUdz/+qY46l+ZT+7FysxIRcqt5WcaTuBCuqj7l7hI6eTQbDKoQbjYwrdKIQSqxf1PWNeZUPFW/JEQ==
 
-"@formant/universe@0.0.236":
-  version "0.0.236"
-  resolved "https://registry.yarnpkg.com/@formant/universe/-/universe-0.0.236.tgz#6edbed01f6f5c932375c9e60cf896e2a7b3da005"
-  integrity sha512-nyKUAQPHZDFfEDaYYSwyd6yOELq6zWu0l+3lMGzrshDU3phuxKBQ+sj5Y2/+gMEfgulXgIVPgK+Qga69KdtHNg==
+"@formant/universe@0.0.240":
+  version "0.0.240"
+  resolved "https://registry.yarnpkg.com/@formant/universe/-/universe-0.0.240.tgz#582101b93b1e6984f4bd203859f145597570155e"
+  integrity sha512-uEa/aGRRJOpOjGCuXjfweApGRDAw8sBegyhjsDiKNqmxTDn0FqxaTUWzzNhy71PTsmOei3EC9EZuZceEC5/f3A==
   dependencies:
     "@formant/ui-sdk" "0.0.26"
     "@formant/universe-core" "^0.0.9"
